@@ -1,4 +1,4 @@
-const ships = document.getElementById("#ship");
-ships.onclick = () => {
-    ships.classList.add("growing");
-};
+const ship = document.querySelector('#shipImg');
+ship.onclick = () => {
+    ship.classList.add('growing')
+}

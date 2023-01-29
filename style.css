@@ -1,12 +1,16 @@
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
-#ship{
- width: 240px;   
- height: auto;
+img {
+  display: block;
+  cursor: pointer;
 }
-#ship.growing{   
-    cursor: pointer;
-    width: 500px;
-    height: 300px;
+#shipImg {
+  width: 240px;
+  height: auto;
+  transition: all 3s cubic-bezier(0,-0.84,0,-1.3);
+}
+#shipImg.growing {
+  width: 500px;
+  height: 300px;
 }
