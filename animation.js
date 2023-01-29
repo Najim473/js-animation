@@ -1,4 +1,4 @@
 const ship = document.querySelector('#shipImg');
 ship.onclick = () => {
-    ship.classList.add('growing')
+    ship.classList.add('growing');
 }
